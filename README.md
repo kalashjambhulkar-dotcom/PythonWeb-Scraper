@@ -1,24 +1,3 @@
-News Headline Scraper
-A simple Python script to automate the extraction of top news headlines from public news websites.
-The code uses requests to fetch HTML content and BeautifulSoup to parse and extract headlines (from <h2> tags).
-Scraped headlines are saved into a cleanly-formatted headlines.txt file for further analysis or reference.
-
-Features:
-
-Fetches news headlines from any site supporting standard HTML structure
-
-Output saved as a numbered list to a .txt file
-
-Easily customizable to adapt headline selectors (<h2>, <h3>, etc.) for different sites
-
-Technologies: Python, requests, BeautifulSoup
-How to use:
-
-Clone the repository
-
-Install dependencies with pip install requests beautifulsoup4
-
-Run the script to generate a fresh list of headlines
-
-Sample use-case:
-Track breaking news or automate monitoring of multiple sites using a shared workflow.
+Scrapes top headlines from The Guardian’s international front page using Python and BeautifulSoup.
+Fetched headlines are saved to a numbered .txt file for easy reading or further analysis.
+Quickly customize for other news sites by changing the URL or HTML tag selector.A Python script that scrapes top headlines from The Guardian International edition using BeautifulSoup, then saves them as a numbered list in a .txt file. Easily customize for other news sites by editing the URL or tag selector. Fast, simple, and useful for news monitoring.
